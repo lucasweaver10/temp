@@ -13,15 +13,21 @@
 
 Route::get('/', 'PagesController@home');
 
+Route::get('/2', 'PagesController@home2');
+
 Route::get('/cart', 'PagesController@cart');
 
 Route::get('/checkout', 'PagesController@checkout');
 
 Route::resource('projects', 'ProjectsController');
 
+Route::resource('courses', 'CoursesController');
+
 Route::get('/about', 'PagesController@about');
 
 Route::resource('shop', 'ProductController');
+
+Route::get('/shop2', 'ProductController@index2');
 
 Route::post('purchases', 'PurchasesController@store');
 

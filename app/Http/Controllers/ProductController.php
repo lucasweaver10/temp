@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Product;
 use App\Cart;
 
+
 use Illuminate\Http\Request;
 
 use Session;
@@ -14,6 +15,12 @@ class ProductController extends Controller
     {
         $products = Product::all();
         return view('products.index', ['products' => $products ]);
+    }
+    
+    public function index2()
+    {
+        $products = Product::all();
+        return view('products.index2', ['products' => $products ]);
     }
 
     public function show(Product $product)
@@ -89,5 +96,7 @@ class ProductController extends Controller
         $cart = new Cart($oldCart);
         return view('cart', ['products' => $cart->items, 'totalPrice' =>$cart->totalPrice]);
     }
+
+    
 
 }

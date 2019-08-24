@@ -1,4 +1,4 @@
-@extends('shop-layout')
+@extends('layouts.shop-layout')
 
 @section('title')
     Laravel Shopping Cart
@@ -27,6 +27,26 @@
                 </ul>
             </div>
         </div>
+        <div class="row py-5">
+                <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
+                    <ul class="list-group">
+                        @foreach($plans as $plan)
+                                <li class="list-group-item">
+                                    <h4><strong>{{ $plan->name }}</strong></h4>
+                                    <span class="label label-success">€{{ $product->price }}</span>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-primary dropdown-toogle" data-toggle="dropdown">Edit</button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Reduce by 1</a></li>
+                                            <li><a href="#">Reduce All</a></li>
+                                        </ul>
+                                    </div>
+                                    <span class="badge">{{ $plan->qty }}</span>
+                                </li>
+                        @endforeach
+                    </ul>
+                </div>
+            </div>
         <div class="row">
             <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
                 <strong>Total: {{ $totalPrice }}</strong>
@@ -35,7 +55,10 @@
         <hr>
         <div class="row">
             <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
-                <button type="button" class="btn btn-success">Checkout</button>
+                    <form method="POST" action="/subscriptions">
+                        @csrf
+                             <button class="btn btn-lg btn-success" type="submit">Checkout</button>
+                      </form>
             </div>
         </div>
     @else
@@ -45,5 +68,11 @@
             </div>
         </div>
     @endif
+    <script>
+    (function(){
+        var stripe = Stripe('{{ config('services.stripe.key') }}');
+
+    });
+    </script>
 </div>
 @endsection

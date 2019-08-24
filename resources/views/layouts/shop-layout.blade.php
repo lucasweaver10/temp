@@ -41,28 +41,20 @@
 <!-- JS -->
 <script src="{{ mix('js/app.js') }}"></script>
 <script src="{{ mix('css/app.css') }}"></script>
+<script>document.getElementById("checkoutButton").addEventListener("click", redirectToCheckout);</script>
 
+<!-- Stripe -->
+<script src="https://js.stripe.com/v3/"></script>
 
-<!-- Video Animation -->
 <script>
-function deferVideo() {
+    const stripe = Stripe('{{ config('services.stripe.key') }}');
 
-  //defer html5 video loading
-$("video source").each(function() {
-  var sourceFile = $(this).attr("data-src");
-  $(this).attr("src", sourceFile);
-  var video = this.parentElement;
-  video.load();
-  // uncomment if video is not autoplay
-  //video.play();
-});
+    const elements = stripe.elements();
+    const cardElement = elements.create('card');
 
-}
-window.onload = deferVideo;
-
-</script> 
-
-
+    cardElement.mount('#card-element');
+</script>
+<!-- End Stripe -->
 
 </head>
 <body>
@@ -90,7 +82,7 @@ window.onload = deferVideo;
           </li> 
            <li>
             <form class="form-inline">
-            <button class="btn btn-primary ml-lg-0" type="button">CHECKOUT</button>
+            <button class="btn btn-primary ml-lg-0" type="button" id="checkoutButton">CHECKOUT</button>
           </form>
            </li>
        </ul>

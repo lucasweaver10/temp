@@ -1,4 +1,4 @@
-@extends('shop-layout')
+@extends('layouts.shop-layout')
 
 @section('title')
         Add a Course

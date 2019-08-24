@@ -3,9 +3,15 @@
     namespace App\Http\Controllers;
 
     use Auth;
-    use App\User;
     use Validator;
     use Illuminate\Http\Request;
+    use Stripe\{Stripe, Charge, Customer};
+    use Laravel\Cashier\Billable;
+
+    class User extends Authenticatable
+    {
+    use Billable;
+    }
 
     class UserController extends Controller
     {
@@ -34,6 +40,12 @@
                 'email' => 'required|email',
                 'password' => 'required|min:6',
                 'c_password' => 'required|same:password',
+            ]);
+
+            $user->createAsStripeCustomer();
+
+            $customer = Customer::create([
+                'email' => request('$email'),
             ]);
 
             if ($validator->fails()) {

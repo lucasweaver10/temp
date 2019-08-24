@@ -2402,8 +2402,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #3490dc;
-    border-color: #3490dc;
+    background-color: #29ABE2;
+    border-color: #29ABE2;
 }
 
 .btn-primary:hover {
@@ -2630,8 +2630,8 @@ fieldset:disabled a.btn {
 
 .btn-light {
     color: #212529;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
+    background-color: #F7F7F7;
+    border-color: #F7F7F7;
 }
 
 .btn-light:hover {
@@ -2668,8 +2668,8 @@ fieldset:disabled a.btn {
 
 .btn-dark {
     color: #fff;
-    background-color: #343a40;
-    border-color: #343a40;
+    background-color: #224870;
+    border-color: #224870;
 }
 
 .btn-dark:hover {
@@ -4568,6 +4568,7 @@ input[type=button].btn-block {
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
+    object-fit: cover;
 }
 
 .card>hr {
@@ -4628,8 +4629,8 @@ input[type=button].btn-block {
 
 .card-footer {
     padding: 0.75rem 1.25rem;
-    background-color: rgba(0, 0, 0, 0.03);
-    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: #ffffff;
+    border-top: 0px solid rgba(0, 0, 0, 0.125);
 }
 
 .card-footer:last-child {
@@ -4666,6 +4667,8 @@ input[type=button].btn-block {
     width: 100%;
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
+    height: 15vw;
+    object-fit: cover;
 }
 
 .card-img-bottom {
@@ -5112,7 +5115,7 @@ a.badge-dark.focus {
     height: 100%;
     /*  object-fit is not supported on IE  */
     object-fit: cover;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 .jumbotron .container {
@@ -9896,21 +9899,8 @@ a.text-dark:focus {
 
 /* Custom CSS */
 
-.home-hero {
-    /*  background-image: url('/images/english-course-classroom-rotterdam.jpg'); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 350px;
-    color: white;
-}
-
-.bg-overlay {}
-
-.home-callout {
-    background-color: #3fabe2;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .bottom-cta {
@@ -9919,16 +9909,17 @@ a.text-dark:focus {
     margin-left: -15px;
 }
 
-.home-course-block-one {
-    background-color: #313D52;
+.course-cta {
+    background-image: url("/images/english courses weaver english.jpeg");
+    background-position: center;
+    height: 20rem;
+    background-size: cover;
 }
 
-.home-course-block-two {
-    padding-bottom: 2rem;
-    background-color: #313D52;
+.course-bottom-cta {
+    background: white;
 }
 
-.calendar-icon {
-    height: 300px;
-    width: 300px;
+.footer {
+    background-color: #ffffff;
 }

@@ -1,4 +1,4 @@
-@extends('shop-layout')
+@extends('layouts.shop-layout')
 
 @section('title')
         Courses
@@ -7,11 +7,11 @@
 @section('content')
 
 <div class="container">
-        <br />
+        <br/>
         @if (\Session::has('success'))
           <div class="alert alert-success">
             <p>{{ \Session::get('success') }}</p>
-          </div><br />
+          </div><br/>
          @endif
         <table class="table table-striped">
         <thead>
