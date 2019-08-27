@@ -16,12 +16,6 @@ class ProductController extends Controller
         $products = Product::all();
         return view('products.index', ['products' => $products ]);
     }
-    
-    public function index2()
-    {
-        $products = Product::all();
-        return view('products.index2', ['products' => $products ]);
-    }
 
     public function show(Product $product)
 
@@ -42,7 +36,7 @@ class ProductController extends Controller
          'name' => 'required',
          'description' => 'required',
          'price' => 'required|numeric'
-     ]);   
+     ]);
 
     Product::create($product);
 
@@ -97,6 +91,6 @@ class ProductController extends Controller
         return view('cart', ['products' => $cart->items, 'totalPrice' =>$cart->totalPrice]);
     }
 
-    
+
 
 }

@@ -8,16 +8,21 @@ use Illuminate\Http\Request;
 
 use Laravel\Cashier\Billable;
 
-class User extends Authenticatable
-{
-    use Billable;
-}
-
 
 use Stripe\{Stripe, Charge, Customer};
 
 class SubscriptionsController extends Controller
 {
+    public function index()
+
+    {
+        $plans = Plan::all();
+
+        return view('plans.index', ['plans' => $plans ]);
+    }
+
+
+
     public function store()
     {
         Stripe::setAPIKey(config('services.stripe.secret'));
@@ -32,7 +37,7 @@ class SubscriptionsController extends Controller
             'amount' => '',
             'currency' => 'eur',
         ]);
-        
+
         $session = \Stripe\Checkout\Session::create([
             'payment_method_types' => ['card'],
             'subscription_data' => [
@@ -47,29 +52,5 @@ class SubscriptionsController extends Controller
 
 
     }
-       
-    /* {
-        $plan = Plan::findOrFail(request('plan'));
 
-        $mollie = new \Mollie\Api\MollieApiClient();
-        $mollie->setApiKey(config('services.mollie.key'));
-        
-       try {
-        $customer = Customer::create([
-            "name" => request('name'),
-            'email' => request('email'),
-            'plan' => $plan->name  
-        ]);
-       } catch (Exception $e) {
-           return response()->json(
-               ['status' => $e->getMessage()], 422
-           );
-       }
-       
-        request()->user()->activate($customer->id);
-       
-        return [
-            'status' => 'Success!'
-    ];
-    } */
 }
