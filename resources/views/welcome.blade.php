@@ -28,7 +28,7 @@
     </div>
     <div class="col-lg-8 col-sm-12">
         <div class="card bg-dark text-white" style="margin-left: -15%; z-index: 1; border: 0px;">
-            <img src="/images/english-courses-weaver-english.jpeg" class="card-img" alt="english courses" style="object-fit: cover; max-height: 24rem;">
+            <img src="/public/images/english-courses-weaver-english.jpeg" class="card-img" alt="english courses" style="object-fit: cover; max-height: 24rem;">
             <div class="card-img-overlay">
             </div>
         </div>
@@ -60,7 +60,7 @@
         </div>
       </div>
       <div class="card mt-2">
-        <img src="/images/ielts course weaver english.jpg" class="card-img-top" alt="ielts courses rotterdam">
+        <img src="/images/ielts-course-weaver-english.jpg" class="card-img-top" alt="ielts courses rotterdam">
         <div class="card-body">
           <h3 class="card-title">IELTS Exam Prep</h3>
           <p class="card-text">The most specialized IELTS prep course in all of Rotterdam. Learn everything you need to know to pass the IELTS exam.</p>
@@ -165,7 +165,7 @@
       <div class="card-deck">
         <!-- Beginning individual course card four -->
       <div class="card" style="width: 24rem; margin-top: 2rem;">
-          <img src="/images/business english course 2.jpeg" class="card-img-top" alt="weaver english business english course in rotterdam">
+          <img src="/images/business-english-course-2.jpeg" class="card-img-top" alt="weaver english business english course in rotterdam">
                 <div class="card-body">
                   <h4 class="card-title">Business English Course</h4>
                   <p class="card-text">Monthly access to our Advanced English Course.</p>
@@ -177,7 +177,7 @@
      <!-- End individual course card four -->
      <!-- Beginning individual course card five -->
       <div class="card" style="width: 24rem; margin-top: 2rem;">
-        <img src="/images/ielts course weaver english.jpg" class="card-img-top" alt="weaver english ielts prep course in rotterdam">
+        <img src="/images/ielts-course-weaver-english.jpg" class="card-img-top" alt="weaver english ielts prep course in rotterdam">
               <div class="card-body">
                     <h4 class="card-title">IELTS Exam Prep Course</h4>
                     <p class="card-text">Monthly access to our Intermediate English Course.</p>
