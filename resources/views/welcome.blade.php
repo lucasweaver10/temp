@@ -51,7 +51,7 @@
         </div>
       </div>
       <div class="card mt-2">
-        <img src="/images/weaver english private lessons.jpeg" class="card-img-top" alt="...">
+        <img src="/images/weaver-english-private-lessons.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title">Private Lessons</h3>
           <p class="card-text">Private one-to-one lessons are the best way to imporve the specific English
@@ -60,7 +60,7 @@
         </div>
       </div>
       <div class="card mt-2">
-        <img src="/images/ielts course weaver english.jpg" class="card-img-top" alt="...">
+        <img src="/images/ielts course weaver english.jpg" class="card-img-top" alt="ielts courses rotterdam">
         <div class="card-body">
           <h3 class="card-title">IELTS Exam Prep</h3>
           <p class="card-text">The most specialized IELTS prep course in all of Rotterdam. Learn everything you need to know to pass the IELTS exam.</p>
