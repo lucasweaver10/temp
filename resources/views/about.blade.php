@@ -3,7 +3,7 @@
         About Weaver English | Weaver English
 @endsection
 @section('content')
-<div class="row py-5 home-callout-2">  
+<div class="row py-5 home-callout-2">
   <div class="col-4 my-auto">
     <div class="card" style="width: 26rem; z-index: 2;">
       <div class="card-body">
@@ -27,13 +27,13 @@
   </div>
   <div class="col-8">
     <div class="card bg-dark text-white" style="margin-left: -15%; z-index: 1; border: 0px;">
-      <img src="/images/english courses weaver english.jpeg" class="card-img" alt="english courses" style="object-fit: cover; max-height: 24rem;">
+      <img src="/images/english courses weaver english.JPEG" class="card-img" alt="english courses" style="object-fit: cover; max-height: 24rem;">
       <div class="card-img-overlay">
       </div>
     </div>
   </div>
 </div>
-<div class="row py-5" style="height: 30rem;" id="mission"> 
+<div class="row py-5" style="height: 30rem;" id="mission">
   <div class="col">
     <h2>Mission</h2>
     <p>Learn about our mission.</p>
@@ -41,7 +41,7 @@
   <div class="col">
   </div>
 </div>
-<div class="row py-5" style="height: 30rem;"> 
+<div class="row py-5" style="height: 30rem;">
   <div class="col">
     <h2>Teachers</h2>
     <p>Learn about our teachers.</p>
@@ -49,7 +49,7 @@
   <div class="col">
   </div>
 </div>
-<div class="row py-5" style="height: 30rem;"> 
+<div class="row py-5" style="height: 30rem;">
   <div class="col">
     <h2>Location</h2>
     <p>Learn about our location.</p>
@@ -57,7 +57,7 @@
   <div class="col">
   </div>
 </div>
-<div class="row py-5" style="height: 30rem;"> 
+<div class="row py-5" style="height: 30rem;">
   <div class="col">
     <h2>Goals</h2>
     <p>Learn about our goals.</p>
@@ -65,7 +65,7 @@
   <div class="col">
   </div>
 </div>
-<div class="row py-5" style="height: 30rem;"> 
+<div class="row py-5" style="height: 30rem;">
   <div class="col">
     <h2>Teaching Style</h2>
     <p>Learn about our teaching style.</p>
@@ -73,6 +73,6 @@
   <div class="col">
   </div>
 </div>
-    
+
 </div>
 @endsection

@@ -9,13 +9,13 @@
     <div class="row justify-content-center">
      <div class="card-deck">
 
-      
+
 
       <!-- Beginning individual course card one -->
 
           <div class="card" style="width: 24rem; margin-top: 2rem;">
             <div class="card-header"><h5>Course Payment</h5></div>
-      <img src="https://weaverenglish.nl/wp-content/uploads/2018/07/general-english-course.png" class="card-img-top" alt="weaver english general english course in rotterdam">
+      <img src="https://weaverenglish.nl/wp-content/uploads/2018/07/general-english-course.PNG" class="card-img-top" alt="weaver english general english course in rotterdam">
               <div class="card-body">
       <h4 class="card-title"></h4>
        <p class="card-text">Monthly access to our Advanced English Course.</p>
@@ -33,7 +33,7 @@
               </div>
           </div>
 
-          
+
 
         <!-- End individual course card one -->
         <!-- Beginning individual course card two -->
@@ -82,11 +82,11 @@
         <!-- End individual course card three -->
       </div>
     </div>
-  
+
     <div class="row justify-content-center">
-      <div class="card">   
-        
-      
+      <div class="card">
+
+
 
   </div>
 
