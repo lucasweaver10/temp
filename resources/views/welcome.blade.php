@@ -28,7 +28,7 @@
     </div>
     <div class="col-lg-8 col-sm-12">
         <div class="card bg-dark text-white" style="margin-left: -15%; z-index: 1; border: 0px;">
-            <img src="/images/english-courses-weaver-english.JPEG" class="card-img" alt="english courses" style="object-fit: cover; max-height: 24rem;">
+            <img src="/images/english-courses-weaver-english.jpeg" class="card-img" alt="english courses" style="object-fit: cover; max-height: 24rem;">
             <div class="card-img-overlay">
             </div>
         </div>
@@ -42,7 +42,7 @@
   <div class="col-lg-9 col-sm-12">
     <div class="card-deck">
       <div class="card mt-2">
-        <img src="/images/english-course-classroom-rotterdam.JPG" class="card-img-top" alt="...">
+        <img src="/images/english-course-classroom-rotterdam.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title">Group Courses</h3>
           <p class="card-text">Group General & Business English courses that provide you with plenty of
@@ -51,7 +51,7 @@
         </div>
       </div>
       <div class="card mt-2">
-        <img src="/images/weaver-english-private-lessons.JPG" class="card-img-top" alt="...">
+        <img src="/images/weaver-english-private-lessons.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title">Private Lessons</h3>
           <p class="card-text">Private one-to-one lessons are the best way to imporve the specific English
@@ -60,7 +60,7 @@
         </div>
       </div>
       <div class="card mt-2">
-        <img src="/images/ielts-course-weaver-english.JPG" class="card-img-top" alt="ielts courses rotterdam">
+        <img src="/images/ielts-course-weaver-english.jpg" class="card-img-top" alt="ielts courses rotterdam">
         <div class="card-body">
           <h3 class="card-title">IELTS Exam Prep</h3>
           <p class="card-text">The most specialized IELTS prep course in all of Rotterdam. Learn everything you need to know to pass the IELTS exam.</p>
@@ -87,7 +87,7 @@
     <div class="col-lg-9 col-sm-12">
       <div class="card-deck">
         <div class="card mt-2">
-          <img src="/images/flexible course schedules.JPG" class="card-img-top" alt="...">
+          <img src="/images/flexible course schedules.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h3 class="card-title">Flexible Schedules</h3>
             <p class="card-text">We know you're busy. Our flexible English course schedules were designed with busy professionals in mind.</p>
@@ -95,7 +95,7 @@
           </div>
         </div>
         <div class="card mt-2">
-          <img src="/images/convenient location.JPG" class="card-img-top" alt="...">
+          <img src="/images/convenient location.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h3 class="card-title">Convenient Location</h3>
             <p class="card-text">Located in the heart of Rotterdam, right next to Central Station. Just seconds away from train, metro, and tram.</p>
@@ -103,7 +103,7 @@
           </div>
         </div>
         <div class="card mt-2">
-          <img src="/images/comfortable classrooms 2.JPG" class="card-img-top" alt="...">
+          <img src="/images/comfortable classrooms 2.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h3 class="card-title">Comfortable Classrooms</h3>
             <p class="card-text">Huge boardrooms, super-comfortable chairs, large TV-screens, and delicious cappuccinos all waiting for you.</p>
@@ -125,7 +125,7 @@
       <div class="card-deck">
         <!-- Beginning individual course card one -->
              <div class="card" style="width: 24rem; margin-top: 2rem;">
-                <img src="/images/group english course rotterdam.JPG" class="card-img-top" alt="weaver english general english course in rotterdam">
+                <img src="/images/group english course rotterdam.jpg" class="card-img-top" alt="weaver english general english course in rotterdam">
                       <div class="card-body">
                         <h4 class="card-title">Advanced General English Course</h4>
                         <p class="card-text">Monthly access to our Advanced English Course.</p>
@@ -137,7 +137,7 @@
            <!-- End individual course card one -->
            <!-- Beginning individual course card two -->
             <div class="card" style="width: 24rem; margin-top: 2rem;">
-              <img src="/images/fun group english lessons.JPG" class="card-img-top" alt="weaver english general english course in rotterdam">
+              <img src="/images/fun group english lessons.jpg" class="card-img-top" alt="weaver english general english course in rotterdam">
                     <div class="card-body">
                           <h4 class="card-title">Intermediate General English Course</h4>
                           <p class="card-text">Monthly access to our Intermediate English Course.</p>
@@ -149,7 +149,7 @@
            <!-- End individual course card two -->
             <!-- Beginning individual course card three -->
           <div class="card" style="width: 24rem; margin-top: 2rem;">
-            <img src="/images/beginners english courses.JPG" class="card-img-top" alt="weaver english general english course in rotterdam" style="object-fit: cover;">
+            <img src="/images/beginners english courses.jpg" class="card-img-top" alt="weaver english general english course in rotterdam" style="object-fit: cover;">
                 <div class="card-body">
                       <h4 class="card-title">Beginners General English Course</h4>
                           <p class="card-text">Monthly access to our Beginners English Course.</p>
@@ -165,7 +165,7 @@
       <div class="card-deck">
         <!-- Beginning individual course card four -->
       <div class="card" style="width: 24rem; margin-top: 2rem;">
-          <img src="/images/business-english-course-2.JPEG" class="card-img-top" alt="weaver english business english course in rotterdam">
+          <img src="/images/business-english-course-2.jpeg" class="card-img-top" alt="weaver english business english course in rotterdam">
                 <div class="card-body">
                   <h4 class="card-title">Business English Course</h4>
                   <p class="card-text">Monthly access to our Advanced English Course.</p>
@@ -177,7 +177,7 @@
      <!-- End individual course card four -->
      <!-- Beginning individual course card five -->
       <div class="card" style="width: 24rem; margin-top: 2rem;">
-        <img src="/images/ielts-course-weaver-english.JPG" class="card-img-top" alt="weaver english ielts prep course in rotterdam">
+        <img src="/images/ielts-course-weaver-english.jpeg" class="card-img-top" alt="weaver english ielts prep course in rotterdam">
               <div class="card-body">
                     <h4 class="card-title">IELTS Exam Prep Course</h4>
                     <p class="card-text">Monthly access to our Intermediate English Course.</p>
@@ -189,7 +189,7 @@
      <!-- End individual course card five -->
       <!-- Beginning individual course card six -->
     <div class="card" style="width: 24rem; margin-top: 2rem;">
-      <img src="/images/private english lessons 2 zoomed.JPEG" class="card-img-top" alt="weaver english private lessons">
+      <img src="/images/private english lessons 2 zoomed.jpeg" class="card-img-top" alt="weaver english private lessons">
           <div class="card-body">
                 <h4 class="card-title">Private Lessons</h4>
                     <p class="card-text">Monthly access to our Beginners English Course.</p>
