@@ -60,7 +60,7 @@
         </div>
       </div>
       <div class="card mt-2">
-        <img src="/images/ielts-course-weaver-english.jpg" class="card-img-top" alt="ielts courses rotterdam">
+        <img src="/images/ielts-course-weaver-english.jpeg" class="card-img-top" alt="ielts courses rotterdam">
         <div class="card-body">
           <h3 class="card-title">IELTS Exam Prep</h3>
           <p class="card-text">The most specialized IELTS prep course in all of Rotterdam. Learn everything you need to know to pass the IELTS exam.</p>
@@ -87,7 +87,7 @@
     <div class="col-lg-9 col-sm-12">
       <div class="card-deck">
         <div class="card mt-2">
-          <img src="/images/flexible course schedules.jpg" class="card-img-top" alt="...">
+          <img src="/images/flexible course schedules.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
             <h3 class="card-title">Flexible Schedules</h3>
             <p class="card-text">We know you're busy. Our flexible English course schedules were designed with busy professionals in mind.</p>
@@ -95,7 +95,7 @@
           </div>
         </div>
         <div class="card mt-2">
-          <img src="/images/convenient location.jpg" class="card-img-top" alt="...">
+          <img src="/images/convenient location.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
             <h3 class="card-title">Convenient Location</h3>
             <p class="card-text">Located in the heart of Rotterdam, right next to Central Station. Just seconds away from train, metro, and tram.</p>
@@ -103,7 +103,7 @@
           </div>
         </div>
         <div class="card mt-2">
-          <img src="/images/comfortable classrooms 2.jpg" class="card-img-top" alt="...">
+          <img src="/images/comfortable classrooms 2.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
             <h3 class="card-title">Comfortable Classrooms</h3>
             <p class="card-text">Huge boardrooms, super-comfortable chairs, large TV-screens, and delicious cappuccinos all waiting for you.</p>
@@ -125,7 +125,7 @@
       <div class="card-deck">
         <!-- Beginning individual course card one -->
              <div class="card" style="width: 24rem; margin-top: 2rem;">
-                <img src="/images/group english course rotterdam.jpg" class="card-img-top" alt="weaver english general english course in rotterdam">
+                <img src="/images/group english course rotterdam.jpeg" class="card-img-top" alt="weaver english general english course in rotterdam">
                       <div class="card-body">
                         <h4 class="card-title">Advanced General English Course</h4>
                         <p class="card-text">Monthly access to our Advanced English Course.</p>
@@ -137,7 +137,7 @@
            <!-- End individual course card one -->
            <!-- Beginning individual course card two -->
             <div class="card" style="width: 24rem; margin-top: 2rem;">
-              <img src="/images/fun group english lessons.jpg" class="card-img-top" alt="weaver english general english course in rotterdam">
+              <img src="/images/fun group english lessons.jpeg" class="card-img-top" alt="weaver english general english course in rotterdam">
                     <div class="card-body">
                           <h4 class="card-title">Intermediate General English Course</h4>
                           <p class="card-text">Monthly access to our Intermediate English Course.</p>
@@ -149,7 +149,7 @@
            <!-- End individual course card two -->
             <!-- Beginning individual course card three -->
           <div class="card" style="width: 24rem; margin-top: 2rem;">
-            <img src="/images/beginners english courses.jpg" class="card-img-top" alt="weaver english general english course in rotterdam" style="object-fit: cover;">
+            <img src="/images/beginners english courses.jpeg" class="card-img-top" alt="weaver english general english course in rotterdam" style="object-fit: cover;">
                 <div class="card-body">
                       <h4 class="card-title">Beginners General English Course</h4>
                           <p class="card-text">Monthly access to our Beginners English Course.</p>

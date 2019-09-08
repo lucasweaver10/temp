@@ -27,7 +27,7 @@
   </div>
   <div class="col-8">
     <div class="card bg-dark text-white" style="margin-left: -15%; z-index: 1; border: 0px;">
-      <img src="/images/english courses weaver english.JPEG" class="card-img" alt="english courses" style="object-fit: cover; max-height: 24rem;">
+      <img src="/images/english courses weaver english.jpeg" class="card-img" alt="english courses" style="object-fit: cover; max-height: 24rem;">
       <div class="card-img-overlay">
       </div>
     </div>
