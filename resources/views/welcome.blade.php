@@ -103,7 +103,7 @@
           </div>
         </div>
         <div class="card mt-2">
-          <img src="/images/comfortable classrooms 2.jpeg" class="card-img-top" alt="...">
+          <img src="/images/comfortable classrooms 2.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h3 class="card-title">Comfortable Classrooms</h3>
             <p class="card-text">Huge boardrooms, super-comfortable chairs, large TV-screens, and delicious cappuccinos all waiting for you.</p>
@@ -177,7 +177,7 @@
      <!-- End individual course card four -->
      <!-- Beginning individual course card five -->
       <div class="card" style="width: 24rem; margin-top: 2rem;">
-        <img src="/images/ielts-course-weaver-english.jpeg" class="card-img-top" alt="weaver english ielts prep course in rotterdam">
+        <img src="/images/ielts-course-weaver-english.jpg" class="card-img-top" alt="weaver english ielts prep course in rotterdam">
               <div class="card-body">
                     <h4 class="card-title">IELTS Exam Prep Course</h4>
                     <p class="card-text">Monthly access to our Intermediate English Course.</p>
