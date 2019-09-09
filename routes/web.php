@@ -1,18 +1,12 @@
 <?php
 
-Route::get('/', 'PagesController@home');
-
-Route::get('/cart', 'PagesController@cart');
-
-Route::get('/checkout', 'PagesController@checkout');
+Route::resource('pages', 'PagesController');
 
 Route::resource('projects', 'ProjectsController');
 
 Route::resource('plans', 'SubscriptionsController');
 
 Route::resource('courses', 'CoursesController');
-
-Route::get('/about', 'PagesController@about');
 
 Route::resource('shop', 'ProductController');
 

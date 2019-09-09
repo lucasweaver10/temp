@@ -2,7 +2,10 @@
 
 <html lang = "en">
 
-<head>
+<head profile="http://weaverenglish.nl/profile">
+<link rel="icon"
+      type="image/png"
+      href="/images/weaver english favicon.png">
 
   <title>@yield('title', 'Weaver English')</title>
 
@@ -10,8 +13,8 @@
 
 <!-- CSS -->
 
-<link rel="stylesheet" type"text/css" href="{{ mix('/css/app.css') }}">  
-  
+<link rel="stylesheet" type"text/css" href="{{ mix('/css/app.css') }}">
+
 <!-- Latest compiled and minified CSS-->
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -75,11 +78,11 @@
        </ul>
        <ul class="navbar-nav ml-auto nav-cta">
         <li class="navbar-item mr-5">
-            <a href="/cart"> 
+            <a href="/cart">
               <i class="fas fa-shopping-cart"></i>
               <div class="badge">{{ Session::has('cart') ? Session::get('cart')->totalQty : '' }}</div>
             </a>
-          </li> 
+          </li>
            <li>
             <form class="form-inline">
             <button class="btn btn-primary ml-lg-0" type="button" id="checkoutButton">CHECKOUT</button>

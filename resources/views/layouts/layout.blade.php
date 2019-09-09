@@ -2,7 +2,10 @@
 
 <html lang = "en">
 
-<head>
+<head profile="http://weaverenglish.nl/profile">
+<link rel="icon"
+      type="image/png"
+      href="/images/weaver english favicon.png">
 
   <title>@yield('title', 'Weaver English')</title>
 
@@ -10,8 +13,8 @@
 
 <!-- CSS -->
 
-<link rel="stylesheet" type"text/css" href="{{ mix('/css/app.css') }}">  
-  
+<link rel="stylesheet" type"text/css" href="{{ mix('/css/app.css') }}">
+
 <!-- Latest compiled and minified CSS-->
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -57,7 +60,7 @@ $("video source").each(function() {
 }
 window.onload = deferVideo;
 
-</script> 
+</script>
 
 
 
@@ -86,12 +89,12 @@ window.onload = deferVideo;
     <ul class="navbar-nav ml-auto nav-cta">
        <li class="nav-item">
            <a class="nav-link" href="/login">LOGIN</a>
-        </li>  
+        </li>
        <li class="nav-item">
            <a class="nav-link" href="/register">REGISTER</a>
-       </li>  
+       </li>
        <form class="form-inline">
-         <button class="btn btn-primary ml-lg-3" type="button">CONTACT US</button>
+         <button class="btn btn-primary ml-lg-3" type="button">CONTACT</button>
        </form>
     </ul>
   </div>
