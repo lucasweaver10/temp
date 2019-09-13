@@ -1,6 +1,8 @@
 <?php
 
-Route::get('/', 'PagesController@home');
+//Route::resource('pages', 'PagesController');
+
+Route::get('/', 'PagesController@index');
 
 Route::get('/about', 'PagesController@about');
 
