@@ -4,31 +4,31 @@
 @endsection
 @section('content')
 <div class="container-fluid bg-white">
-  <div class="row py-5">
-    <div class="col-lg-4 col-sm-12 my-auto">
-        <div class="card" style="width: 26rem; z-index: 2;">
+  <div class="row py-5 hero-row">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-2 my-auto hero-col-left">
+        <div class="card hero-form-card">
             <div class="card-body">
               <h2 class="card-title">Find the right English course for you</h2>
               <p class="card-text">Find the course that will help you improve the English skills you need.</p>
-            <form method="POST" action="/courses">
+
+            <form method="GET" action="/courses/">
                   <div class="form-group">
-                      <label for="exampleFormControlSelect1">Courses:</label>
-                      <select class="form-control" id="exampleFormControlSelect1">
-                        <option>General English</option>
-                        <option>Business English</option>
-                        <option>IELTS Prep</option>
-                        <option>Private Lessons</option>
-                        <option>In-Company Lessons</option>
+                      <label for="courseName">Courses:</label>
+                      <select class="form-control" id="courseSelection" name="selection">
+ @foreach ($courses as $course)
+                        <option value="{{$course->id}}">{{$course->name}}</option>
+ @endforeach
                       </select>
                     </div>
+                  <button type="submit" class="btn btn-primary btn-lg">View Course</button>
               </form>
-              <a href="#" class="btn btn-primary btn-lg">View Course</a>
-            </div>
+
           </div>
+        </div>
     </div>
-    <div class="col-lg-8 col-sm-12">
-        <div class="card bg-dark text-white" style="margin-left: -15%; z-index: 1; border: 0px;">
-            <img src="/images/english-courses-weaver-english.jpeg" class="card-img" alt="english courses" style="object-fit: cover; max-height: 24rem;">
+    <div class="col-lg-8 col-md-8 col-sm-8 hero-col-right">
+        <div class="card bg-dark text-white hero-image-card">
+            <img src="/images/english-courses-weaver-english.jpeg" class="card-img hero-image" alt="english courses">
             <div class="card-img-overlay">
             </div>
         </div>
@@ -223,16 +223,16 @@
         <div class="modal-body">
           <form>
             <div class="form-group">
-                  <label for="exampleInputPassword1">First Name</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="First Name">
+                  <label for="firstName">First Name</label>
+                  <input type="name" class="form-control" id="firstName" placeholder="First Name">
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Last Name</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Last Name">
+                <label for="lastName">Last Name</label>
+                <input type="name" class="form-control" id="lastName" placeholder="Last Name">
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
               <small id="emailHelp" class="form-text text-muted">We'll respond via email within 10 minutes.</small>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
@@ -246,5 +246,14 @@
     </div>
   </div>
   <!-- End Modal -->
-  </div>
+</div>
+<div id="course-form">
+ @foreach ($courses as $course)
+ <courses>
+  <course name="course 1">
+  </course>
+</courses>
+@endforeach
+</div>
+
 @endsection
