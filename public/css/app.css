@@ -601,17 +601,28 @@ pre code {
     .container {
         max-width: 540px;
     }
+
 }
 
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
     }
+
 }
 
 @media (min-width: 992px) {
     .container {
         max-width: 960px;
+    }
+
+    .hero-card {
+        z-index: 1;
+        min-width: 100%;
+        min-height: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
 
@@ -1763,6 +1774,30 @@ pre code {
     .table-responsive-sm>.table-bordered {
         border: 0;
     }
+
+    .hero-row {
+    background-image: url("/images/english-courses-weaver-english.jpeg");
+    object-fit: cover;
+    background-size: cover;
+    max-height: 475px;
+    }
+
+    .hero-form-card {
+    max-width: 100%;
+    margin-bottom: 30%;
+    margin-top: 0%;
+    vertical-align: middle;
+    }
+
+    .hero-image-card {
+    visibility: hidden;
+    }
+
+    .hero-col-right {
+    visibility: hidden;
+    }
+
+
 }
 
 @media (max-width: 767.98px) {
@@ -1775,6 +1810,27 @@ pre code {
     .table-responsive-md>.table-bordered {
         border: 0;
     }
+
+    .hero-form-card {
+
+    }
+
+    .hero-image-card {
+        min-height: 375px;
+        height: 100%;
+
+
+
+    }
+
+    .hero-image {
+         object-fit: cover;
+         height: 100%;
+         width: 100%;
+    }
+
+
+
 }
 
 @media (max-width: 991.98px) {
@@ -9923,3 +9979,25 @@ a.text-dark:focus {
 .footer {
     background-color: #ffffff;
 }
+
+.hero-form-card {
+    width: 26rem;
+    z-index: 2;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.hero-image-card {
+    border: 0px;
+    margin-top: 0%;
+    margin-left: -15%;
+    margin-right: 0%;
+
+}
+
+.hero-image {
+    object-fit: cover;
+    max-height: 24rem;
+}
+
+

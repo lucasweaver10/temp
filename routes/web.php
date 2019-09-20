@@ -20,6 +20,11 @@ Route::post('purchases', 'PurchasesController@store');
 
 Route::post('subscriptions', 'SubscriptionsController@store');
 
+Route::get('/courses/{{$course->id}}, [
+    'uses' => 'PagesController@getSelection',
+    'as' => 'course.getSelection'
+  ]);
+
 Route::get('/add-to-cart/{id}', [
     'uses' => 'ProductController@getAddToCart',
     'as' => 'product.addToCart'

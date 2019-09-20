@@ -17,7 +17,11 @@ class PagesController extends Controller
     {
         $courses = Course::all();
 
-        return view('welcome', ['courses' => $courses ]);
+        return view('welcome', [
+
+            'courses' => $courses,
+
+        ]);
     }
 
     /**
@@ -38,7 +42,11 @@ class PagesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $selectValue = $request->input('selection');
+
+        $selection = Selection::create([
+                'id' => request('$course->id'),
+            ]);
     }
 
     /**
@@ -49,7 +57,7 @@ class PagesController extends Controller
      */
     public function show(Page $page)
     {
-        //
+
     }
 
     /**
@@ -97,4 +105,5 @@ class PagesController extends Controller
         return view('contact', [
         ]);
     }
+
 }
