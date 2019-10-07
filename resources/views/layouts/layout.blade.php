@@ -33,14 +33,13 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
 
 <!-- FONTS -->
 
 <link rel="stylesheet" href="https://use.typekit.net/qpq5ghp.css">
 
 <!-- JS -->
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 <!-- Video Animation -->
@@ -71,7 +70,7 @@ window.onload = deferVideo;
   <a class="navbar-brand" href="/">
     <img src="/images/weaver english logo.svg" width="60" height="60" class="d-inline-block align-top" alt="weaver english logo">
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button href="/" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
@@ -94,7 +93,7 @@ window.onload = deferVideo;
            <a class="nav-link" href="/register">REGISTER</a>
        </li>
        <form class="form-inline">
-         <button class="btn btn-primary ml-lg-3" type="button">CONTACT</button>
+         <a href="/contact" class="btn btn-primary ml-lg-3" role="button">CONTACT</a>
        </form>
     </ul>
   </div>

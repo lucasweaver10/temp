@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Page;
 use App\Course;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -17,9 +18,12 @@ class PagesController extends Controller
     {
         $courses = Course::all();
 
+        $selection = request('selection');
+
         return view('welcome', [
 
             'courses' => $courses,
+            'selection' => $selection,
 
         ]);
     }
@@ -100,10 +104,19 @@ class PagesController extends Controller
         ]);
     }
 
+    public function venue()
+    {
+        return view('venue', [
+
+        ]);
+    }
+    
     public function contact()
     {
         return view('contact', [
         ]);
     }
+
+    
 
 }

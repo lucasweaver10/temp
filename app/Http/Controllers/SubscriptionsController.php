@@ -6,8 +6,6 @@ use App\Plan;
 
 use Illuminate\Http\Request;
 
-use Laravel\Cashier\Billable;
-
 
 use Stripe\{Stripe, Charge, Customer};
 

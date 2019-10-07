@@ -7,17 +7,14 @@
     use Illuminate\Http\Request;
     use Stripe\{Stripe, Charge, Customer};
     use Laravel\Cashier\Billable;
+    use App\Http\Controllers\Authenticatable
 
-    class User extends Authenticatable
-    {
-    use Billable;
-    }
 
     class UserController extends Controller
     {
         public function index()  // displays all user with orders
         {
-        $id=auth()->guard('user')->user()->id;    
+        $id=auth()->guard('user')->user()->id;
         return view()->with(User::find($id)->with(['orders'])->get());
         }
 

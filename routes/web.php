@@ -1,8 +1,10 @@
 <?php
 
-//Route::resource('pages', 'PagesController');
+Route::resource('pages', 'PagesController');
 
 Route::get('/', 'PagesController@index');
+
+Route::get('/venue', 'PagesController@venue');
 
 Route::get('/about', 'PagesController@about');
 
@@ -20,19 +22,16 @@ Route::post('purchases', 'PurchasesController@store');
 
 Route::post('subscriptions', 'SubscriptionsController@store');
 
-Route::get('/courses/{{$course->id}}, [
-    'uses' => 'PagesController@getSelection',
-    'as' => 'course.getSelection'
-  ]);
-
 Route::get('/add-to-cart/{id}', [
-    'uses' => 'ProductController@getAddToCart',
-    'as' => 'product.addToCart'
-]);
+   'uses' => 'ProductController@getAddToCart',
+   'as' => 'product.addToCart'
+  ]);
 
 Route::get('/cart', [
     'uses' => 'ProductController@getCart',
     'as' => 'product.Cart'
-]);
+   ]);
 
 Auth::routes();
+
+
