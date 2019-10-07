@@ -11,16 +11,14 @@
               <h2 class="card-title">Find the right English course for you</h2>
               <p class="card-text">Find the course that will help you improve the English skills you need.</p>
 
-            <form method="GET" action="/courses/">
+            <form method="GET" action="/courses">
                   <div class="form-group">
                       <label for="courseName">Courses:</label>
-                      <select class="form-control" id="courseSelection" name="selection">
- @foreach ($courses as $course)
-                        <option value="{{$course->id}}">{{$course->name}}</option>
- @endforeach
+                      <select class="form-control" id="selection" name="selection">
+                        <option>General English</option>
                       </select>
                     </div>
-                  <button type="submit" class="btn btn-primary btn-lg">View Course</button>
+                  <button class="btn btn-primary btn-lg">View Course</button>
               </form>
 
           </div>
@@ -39,7 +37,7 @@
     <h2>Premium English courses customized to your level</h2>
     <p class="lead">Our English courses are designed to help you improve quickly and achieve your specific goals.</p>
   </div>
-  <div class="col-lg-9 col-sm-12">
+  <div class="col-lg-9 col-sm-12 col-md-12">
     <div class="card-deck">
       <div class="card mt-2">
         <img src="/images/english-course-classroom-rotterdam.jpg" class="card-img-top" alt="...">
@@ -207,7 +205,7 @@
       <div class="col-12 col-md-auto text-center">
         <h2>Join Your English Course Today</h2>
           <p class="lead">Ready to start improving your English? Contact us today and we'll respond within 10 minutes.</p>
-            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal">Request Information</a>
+            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal">Request Information</button>
       </div>
     </div>
     <!-- Modal -->
@@ -246,14 +244,11 @@
     </div>
   </div>
   <!-- End Modal -->
-</div>
-<div id="course-form">
- @foreach ($courses as $course)
- <courses>
-  <course name="course 1">
-  </course>
-</courses>
-@endforeach
+<div><test></test></div>
+
+
+
+
 </div>
 
 @endsection

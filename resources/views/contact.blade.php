@@ -8,7 +8,7 @@
     <div class="col d-flex justify-content-center">
       <div class="card align-content-center" style="width: 36rem;">
           <div class="card-body">
-            <h1>Contact Us</h1>
+            <h1 style="text-align: center;">Contact Us</h1>
             <p>Contact us and we'll reply by email within 1 hour with more information.</p>
               <form>
                 <div class="form-group">

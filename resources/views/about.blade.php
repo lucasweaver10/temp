@@ -32,27 +32,72 @@
     </div>
   </div>
 </div>
-<div class="row py-5" style="height: 30rem;" id="mission">
-  <div class="col">
+<div class="row my-5" style="height: 30rem;" id="mission">
+   <div class="col-lg-4">
     <h2>Mission</h2>
-    <p>Our mission is to provide the most enjoyable experience possible for all of our students, from registration to course completion.</p>
+    <p>Our mission is to help you achieve your goals by providing the most enjoyable learning experience possible for all of our students, from registration to course completion.</p>
   </div>
-  <div class="col">
+  <div class="col-lg-8">
+     <div class="card-deck">
+        <div class="card mt-2">
+          <img src="/images/comfortable classrooms 2.jpeg" class="card-img-top" alt="english teacher rotterdam weaver english kate">
+          <div class="card-body">
+            <h3 class="card-title">Customer Service</h3>
+            <p class="card-text">We pride ourselves on our American-style customer service. We treat our students like valued members of the Weaver English family.</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img src="/images/convenient location.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Customized Lessons</h3>
+            <p class="card-text">We don't use textbooks in our classes. Every class gets evaluated and taught according to a custom lesson plan made by your teacher.</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+      </div>
   </div>
+
 </div>
-<div class="row py-5" style="height: 30rem;">
-  <div class="col">
+<div class="row my-10" style="height: 30rem;">
+  <div class="col-lg-2">
     <h2>Teachers</h2>
-    <p>Meet our teachers.</p>
+    <p>Meet our Rotterdam English teachers.</p>
   </div>
-  <div class="col">
+  <div class="col-lg-10">
+     <div class="card-deck">
+        <div class="card mt-2">
+          <img src="/images/kate steckmest.jpeg" class="card-img-top" alt="english teacher rotterdam weaver english kate">
+          <div class="card-body">
+            <h3 class="card-title">Kate</h3>
+            <p class="card-text">Kate is an American teacher from Portland, Oregon, USA. She has taught in Australia, New Zealand, Rotterdam & Canada. Her specialty is pronouncation.</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img src="/images/kate steckmest.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Jesslyn</h3>
+            <p class="card-text">Jesslyn is a Canadian teacher with experience teaching in Italy and the Netherlands. Her specialty is grammar and Academic English.</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img src="/images/kate steckmest.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Sarah</h3>
+            <p class="card-text">Sarah is Irish and has taught extensively in Spain and the Netherlands. Her specialty is vocabulary and word choice.</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+      </div>
   </div>
+
 </div>
 <div class="row mt-5 align-content-center">
     <div class="col-lg-6 col-sm-12">
       <h2>Convenient Location</h2>
-      <p>Rotterdam's most convenient location for English courses. Located right next to Rotterdam Central Station, you can reach your course
-        via car, train, metro, tram, or bike.</p>
+      <p>The most convenient location for English courses in Rotterdam. Located right next to Rotterdam Central Station, you can reach your course via car, train, metro, tram, or bike.</p>
     </div>
     <div class="col-lg-6 col-sm-10 align-content-right g-map">
         <div class="card" style="width: 28rem; height: 24rem;">
@@ -61,14 +106,77 @@
           </div>
     </div>
   </div>
-<div class="row py-5" style="height: 30rem;">
+<div class="row my-5" style="height: 30rem;">
   <div class="col">
     <h2>Teaching Style</h2>
-    <p>Learn about our unique teaching style.</p>
+    <p>Our unique teaching style combines relevance and repitition to enable you to learn English in a way that will have you speaking English confidently for years.</p>
   </div>
-  <div class="col">
+  <div class="col-lg-8">
+     <div class="card-deck">
+        <div class="card mt-2">
+          <img src="/images/comfortable classrooms 2.jpeg" class="card-img-top" alt="english teacher rotterdam weaver english kate">
+          <div class="card-body">
+            <h3 class="card-title">Relevant Course Content</h3>
+            <p class="card-text">Our lessons are always relevant to real-world topics that you will use every day. Our course content is custom-tailored to make sure you will learn the words and skills that you need to succeed in your daily life.</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img src="/images/convenient location.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Repition & Muscle Memory</h3>
+            <p class="card-text">We know you make mistakes, that's why you're here. Our method is to fix your mistakes by helping you build new habits that help you to use English mistake-free on a day-to-day basis.</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+      </div>
   </div>
 </div>
+<!-- CTA -->
+   <div class="row mt-5 justify-content-center">
+      <div class="col-12 col-md-auto text-center">
+        <h2>Join Your English Course Today</h2>
+          <p class="lead">Ready to start improving your English? Contact us today and we'll respond within 10 minutes.</p>
+            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal">Request Information</a>
+      </div>
+    </div>
+  <!-- End CTA -->
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Request Information</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+                  <label for="firstName">First Name</label>
+                  <input type="name" class="form-control" id="firstName" placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="name" class="form-control" id="lastName" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll respond via email within 10 minutes.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+        <!--  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Modal -->
 
 </div>
 @endsection
